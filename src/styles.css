@@ -1,0 +1,41 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+  color: #343a40;
+  background-color: black
+}
+
+.container {
+  /* max-width: 120rem; */
+  padding: 0 3.2rem;
+}
+.header {
+  display: flex;
+  gap: 9.6rem;
+  padding: 3.2rem 0;
+  font-weight: 700;
+  font-size: 3.2rem;
+  /* justify-content: space-between; */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.icon-logo {
+  display: inline-block;
+width: 68px;
+  font-weight: 700;
+}
